@@ -1,0 +1,129 @@
+{
+	"id": "777923c3-3709-454b-87a9-9a1027cd0e0d",
+	"name": "Testes JSON Server",
+	"timestamp": "2020-10-02T02:00:00.484Z",
+	"collection_id": "3a3bee42-0576-499c-a671-176826546a49",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "f15ad244-32ec-46e3-9b13-e690fb7dc1d8",
+			"name": "Get posts",
+			"url": "http://localhost:3000/posts",
+			"time": 546,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 100ms": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 100ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				546
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 100ms": false
+				}
+			]
+		},
+		{
+			"id": "16f010f6-f910-4397-8c5d-cce96c2097cd",
+			"name": "Add Post",
+			"url": "http://localhost:3000/posts?Content-Type=application/json",
+			"time": 32,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 100ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 100ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 100ms": true
+				}
+			]
+		},
+		{
+			"id": "de01ca9a-8fc1-4753-99f7-d9fadcba20a5",
+			"name": "Edit Post",
+			"url": "http://localhost:3000/posts/1",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 100ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 100ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 100ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 610,
+	"collection": {
+		"requests": [
+			{
+				"id": "f15ad244-32ec-46e3-9b13-e690fb7dc1d8",
+				"method": "GET"
+			},
+			{
+				"id": "16f010f6-f910-4397-8c5d-cce96c2097cd",
+				"method": "POST"
+			},
+			{
+				"id": "de01ca9a-8fc1-4753-99f7-d9fadcba20a5",
+				"method": "PUT"
+			}
+		]
+	}
+}

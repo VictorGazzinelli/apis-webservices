@@ -1,0 +1,142 @@
+{
+	"id": "be9fb7a0-bb9a-4e32-9ce0-13a3bd777ae4",
+	"name": "Designing an API",
+	"timestamp": "2020-10-01T22:43:28.555Z",
+	"collection_id": "8cf722f9-68a8-4727-9bf7-42e8d6d8c184",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "670b28b0-5f0f-43a0-ab27-075c85dfcb4f",
+			"name": "Postman Echo GET",
+			"url": "https://postman-echo.com/get",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "ea00c37c-4297-437a-8336-c3bfaf6b0fbd",
+			"name": "Postman Echo POST",
+			"url": "https://postman-echo.com/post?CODIGO_CLIENTE=1",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "5e219336-4037-49f7-b258-f742c39b9209",
+			"name": "Postman Echo PUT",
+			"url": "https://postman-echo.com/put",
+			"time": 158,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				158
+			],
+			"allTests": [
+				{
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "49e67bec-d063-4e67-abcb-92fd82f69735",
+			"name": "Postman Echo DELETE",
+			"url": "https://postman-echo.com/delete",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Response time is less than 500ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 629,
+	"collection": {
+		"requests": [
+			{
+				"id": "670b28b0-5f0f-43a0-ab27-075c85dfcb4f",
+				"method": "GET"
+			},
+			{
+				"id": "ea00c37c-4297-437a-8336-c3bfaf6b0fbd",
+				"method": "POST"
+			},
+			{
+				"id": "5e219336-4037-49f7-b258-f742c39b9209",
+				"method": "PUT"
+			},
+			{
+				"id": "49e67bec-d063-4e67-abcb-92fd82f69735",
+				"method": "DELETE"
+			}
+		]
+	}
+}

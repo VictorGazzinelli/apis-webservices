@@ -1,0 +1,111 @@
+{
+	"id": "0b7dc020-a5d6-41b1-8396-ba3757841e41",
+	"name": "Testes API Marvel",
+	"timestamp": "2020-10-01T23:58:47.593Z",
+	"collection_id": "d2f3dbd8-2181-455f-b47a-8a9be0efc326",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1cd491a8-26ee-42aa-a2ba-bf08ba2bd76c",
+			"name": "Info Capitão America",
+			"url": "https://gateway.marvel.com/v1/public/characters/1009220?ts=1&apikey=49b79a1a7f1b7d8f70d399e1fff23b30&hash=551048cd2e85989d39c1f42113538e05",
+			"time": 229,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 1500ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 1500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Response time is less than 1500ms": true
+				}
+			]
+		},
+		{
+			"id": "fb0746eb-cb14-4298-bbda-54744e04151b",
+			"name": "Capitão America Histórias",
+			"url": "https://gateway.marvel.com/v1/public/characters/1009220/series?ts=1&apikey=49b79a1a7f1b7d8f70d399e1fff23b30&hash=551048cd2e85989d39c1f42113538e05",
+			"time": 503,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 1500ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 1500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				503
+			],
+			"allTests": [
+				{
+					"Response time is less than 1500ms": true
+				}
+			]
+		},
+		{
+			"id": "9d0209d4-0cc2-43c7-b2d7-b0ce0aafdad0",
+			"name": "Capitão America Revistas",
+			"url": "https://gateway.marvel.com/v1/public/characters/1009220/comics?ts=1&apikey=49b79a1a7f1b7d8f70d399e1fff23b30&hash=551048cd2e85989d39c1f42113538e05",
+			"time": 1399,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 1500ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 1500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1399
+			],
+			"allTests": [
+				{
+					"Response time is less than 1500ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2131,
+	"collection": {
+		"requests": [
+			{
+				"id": "1cd491a8-26ee-42aa-a2ba-bf08ba2bd76c",
+				"method": "GET"
+			},
+			{
+				"id": "fb0746eb-cb14-4298-bbda-54744e04151b",
+				"method": "GET"
+			},
+			{
+				"id": "9d0209d4-0cc2-43c7-b2d7-b0ce0aafdad0",
+				"method": "GET"
+			}
+		]
+	}
+}

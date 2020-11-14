@@ -1,0 +1,56 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44339
+        }
+      ],
+      "UpstreamPathTemplate": "/ProdutoAPI/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "SwaggerKey": "ProdutoAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44377
+        }
+      ],
+      "UpstreamPathTemplate": "/VendaAPI/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "SwaggerKey": "VendaAPI"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "ProdutoAPI",
+      "Config": [
+        {
+          "Name": "ProdutoAPI",
+          "Version": "v1",
+          "Url": "https://localhost:44339/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "VendaAPI",
+      "Config": [
+        {
+          "Name": "VendaAPI",
+          "Version": "v1",
+          "Url": "https://localhost:44377/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost"
+  }
+}

@@ -1,0 +1,24 @@
+## Parte 1 – Questões de Fixação
+- O que é o estilo de microsserviços?
+  - Microsserviços são um tipo de arquitetura de software, que consiste em construir aplicações desmembrando-as em serviços independentes. Os serviços comunicam entre si através de APIs e promovem o rápido desenvolvimento de determinados recursos entre times de desenvolvimento.
+- Quais as propriedades essenciais de um microsserviço segundo o artigo de Introdução a Microsserviços de James Lewis e Martin Fowler?
+  - Componentização baseada em serviços, separação lógica de dados, Organização em torno do DDD, Governança e gestão dedados descentralizada, Automação de Infraestrutura.
+- Um conjunto de 20 serviços que manipulem as mesmas tabelas em um servidor de banco de dados físico se constitui como um exemplo do estilo de microsserviços?
+  - Não, ja que os mesmos serviços dependem logicamente de uma mesma entidade que pode ser facilmente manipulada ou alocada por um dos outros, causando interdependências e 'starvation'.
+- Um conjunto de 20 serviços que manipulem o mesmo servidor de banco de dados físico se constitui como um exemplo do estilo de microsserviços? Justifique.
+  - Sim, já que, apesar de estarem constituidos no mesmo servidor de banco de dados, a arquitetura de microserviços se basea na separação lógica de entidades, de maneira que todos os 'bancos' compartilham a mesma instância, porém, em 'bancos' diferentes.
+- O uso de API implica no uso de microsserviços? Justifique.
+  - Não, APIs podem ser concebidas de diferentes pontos de vista arquiteturais, como por exemplo, monolíticos
+- O uso de microsserviços implica no uso de APIs? Justifique.
+  - Sim, uma vez que serviços provem algum tipo de recurso ao usuario, os mesmos são feitos através de Interfaces Programaveis da Aplicação (API)
+## Parte 2
+- O que é uma imagem Docker?
+  - Uma Imagem Docker nada mais é do que a definição de um 'template' de um ambiente(SOs, Runtimes, etc ...) que contem instruções para a criação de um container que roda a plataforma docker.
+- O que é um contêiner? E qual a sua relação como uma imagem?
+  - Containers, que são a implementação de uma imagem via hyper-v, precisam de imagens para existir. A partir de uma mesma imagem, podem ser replicados varios containers. O que facilita a escalabilidade da aplicação.
+- Onde uma aplicação de um microsserviço deve ser compilada? No ambiente no nativo ou em um contêiner? Por quê?
+  - Preferencialmente em um contâiner, para que possam ser feitas medições de metricas importantes de processo e memória que geralmente são limitados na hora de realizar o deploy de uma determinada aplicação.
+- Um contêiner deve rodar 1 ou mais microsserviços dentro dele? Por quê?
+  - Apesar de ser possível, o mesmo não é recomendado. O ideal é realizar a entrega de componentes separados, para facilitar a manutenção, aumentar a coesão e diminuir o acoplamento.
+- Um contêiner deve rodar o banco de dados junto com um microsserviço? Por quê?
+  - Um contêiner pode rodar a aplicação junto a um SGBD para facilitar as suas consultas junto a um ORM, mas seus dados não devem estar alocados no mesmo contâiner.

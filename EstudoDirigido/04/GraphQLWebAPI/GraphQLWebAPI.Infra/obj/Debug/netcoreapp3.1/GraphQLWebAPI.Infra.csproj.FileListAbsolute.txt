@@ -1,0 +1,9 @@
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\bin\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.deps.json
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\bin\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.dll
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\bin\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.pdb
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\obj\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.csprojAssemblyReference.cache
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\obj\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.AssemblyInfoInputs.cache
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\obj\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.AssemblyInfo.cs
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\obj\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\obj\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.dll
+C:\Users\Victor\Desktop\GraphQLWebAPI\GraphQLWebAPI\GraphQLWebAPI.Infra\obj\Debug\netcoreapp3.1\GraphQLWebAPI.Infra.pdb

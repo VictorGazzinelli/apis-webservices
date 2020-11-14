@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Venda.API</name>
+    </assembly>
+    <members>
+        <member name="M:Venda.API.Controllers.VendaController.ListarTodasVendasAtivas">
+            <summary>
+            Obtem todos os vendas ativos
+            </summary>
+            <remarks> Obtem todos os vendas ativos </remarks>
+        </member>
+        <member name="M:Venda.API.Controllers.VendaController.ObterPorId(System.Int32)">
+            <summary>
+            Obtem um venda dado o seu id
+            </summary>
+            <remarks> Obtem um venda dado o seu id </remarks>
+        </member>
+        <member name="M:Venda.API.Controllers.VendaController.Criar(Venda.API.Models.VendaPost)">
+            <summary>
+            Cria um venda
+            </summary>
+            <remarks> Cria um venda </remarks>
+        </member>
+        <member name="M:Venda.API.Controllers.VendaController.Excluir(System.Int32)">
+            <summary>
+            Cancela uma venda
+            </summary>
+            <remarks> Cancela uma venda </remarks>
+        </member>
+    </members>
+</doc>

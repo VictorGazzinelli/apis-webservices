@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Produto.API</name>
+    </assembly>
+    <members>
+        <member name="M:Produto.API.Controllers.ProdutoController.ListarTodosProdutosAtivos">
+            <summary>
+            Obtem todos os produtos ativos
+            </summary>
+            <remarks> Obtem todos os produtos ativos </remarks>
+        </member>
+        <member name="M:Produto.API.Controllers.ProdutoController.ObterPorId(System.Int32)">
+            <summary>
+            Obtem um produto dado o seu id
+            </summary>
+            <remarks> Obtem um produto dado o seu id </remarks>
+        </member>
+        <member name="M:Produto.API.Controllers.ProdutoController.Criar(Produto.API.Models.ProdutoPost)">
+            <summary>
+            Cria um produto
+            </summary>
+            <remarks> Cria um produto </remarks>
+        </member>
+        <member name="M:Produto.API.Controllers.ProdutoController.Alterar(System.Int32,Produto.API.Models.ProdutoPost)">
+            <summary>
+            Atualiza um produto
+            </summary>
+            <remarks> Atualiza um produto </remarks>
+        </member>
+        <member name="M:Produto.API.Controllers.ProdutoController.Excluir(System.Int32)">
+            <summary>
+            Exclui um produto
+            </summary>
+            <remarks> Exclui um produto </remarks>
+        </member>
+    </members>
+</doc>
